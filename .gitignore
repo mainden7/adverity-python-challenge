@@ -3,3 +3,4 @@ app.egg-info
 .mypy_cache
 .env
 .idea/*
+db.sqlite3
