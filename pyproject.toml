@@ -6,6 +6,8 @@ authors = ["John Doe <racerx20001@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+Django = "^4.1.7"
+petl = "^1.7.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
