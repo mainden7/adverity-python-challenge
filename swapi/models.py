@@ -7,7 +7,6 @@ from django.db import models
 class FilesCollection(models.Model):
     file = models.FileField(upload_to=settings.FILES_BASE_DIR)
     created_at = models.DateTimeField(auto_now_add=True)
-    generation_time = models.FloatField()
 
     @property
     def filename(self):
