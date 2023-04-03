@@ -4,3 +4,4 @@ app.egg-info
 .env
 .idea/*
 db.sqlite3
+*.csv
