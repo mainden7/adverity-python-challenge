@@ -69,7 +69,6 @@ class ValueCountView(View):
             headers=DEFAULT_HEADERS,
             columns=selected_columns,
         )
-        # import pdb;pdb.set_trace()
         context = {
             "headers": data.header(),
             "columns": DEFAULT_HEADERS,
